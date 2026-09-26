@@ -1,0 +1,48 @@
+C) Procedure
+1. Insert the SD card into card reader. 
+2. Open the file explorer. Go to “D or E” drive. In that drive open the “softwares” folder.
+3. In software folder there is rufus.exe file. Right click on that exe file and then click on open option. It will ask for user control access, click on yes option. Then automatically following window will open.
+4. In the device check your SD card name is displayed or not. If yes then perform the following steps:
+	a. In Boot selection, the right side there is select option click on it. After Click on select option, browse the raspberry pi compressed folder which is named as “2024-03-15-raspios-bookworm-amhf-full.img.xz” folder. 
+	b. After selection of folder, click on “Start” Button which is at Bottom of the Rufus page. Then check the status of file transfer. After the file transfer done, it will show you 100% in status.
+	c. Then click on “Close” button, which is at bottom of the Rufus page.
+5. Now, insert SD card in Raspberry Pi.
+6. Connect the mouse, keyboard to USB ports of Raspberry Pi.
+7. Connect Raspberry Pi to HDMI port directly or use HDMI to VGA connector.
+8. Connect the Pi to the internet via Ethernet, use an Ethernet cable to connect the Raspberry Pi.
+9. Plug the power supply into a socket and connect it to the micro-USB power pot.
+10. Red light will indicate Power On and Green will indicate the booting of the Raspberry Pi. The Pi will boot up into a graphical desktop.
+11. Set up of the Raspberry Pi.
+12. Configuring your Pi:
+	a. You can control most of your Raspberry Pi’s settings, such as the password, through the Raspberry Pi configuration application found in preference on the menu.
+	b. System: In this tab you can change basic system settings of your Pi.
+		i. Boot: Select to show the Desktop or CLI when your Raspberry Pi starts.
+		ii.Auto login: enabling this option will make the Raspberry Pi automatically log in whenever it starts.
+		iii.Network at Boot: Selecting this option will cause your Raspberry Pi to wait until a network connection is available before starting.
+		iv.Splash Screen: Choose whether to show the splash (startup) screen when your Raspberry Pi boots.
+		v.Resolution: You can set the screen resolution here.
+		vi.Underscan: Choose whether your Pi should show black bars at the top and bottom of the screen when it can’t match the screen resolution.
+	c. Interfaces:You can link devices and components to the Raspberry Pi using a lot of different types of connections. The interfaces tab is where you turn these different connections on or off, so that the Pi recognizes that you’ve linked something to it via a particular type of connection.
+		i. Camera: enable the Raspberry Pi Camera Module.
+		ii.SSH: Allow remote access to the Raspberry Pi from another computer using SSH.
+		iii.VNC: Allow remote access to the Raspberry Pi Desktop from another computer using VNC.
+		iv.SPI: Enable the SPI GPIO pins
+		v.I2C: Enable the I2C GPIO pins
+		vi.Serial: Enable the serial (Rx, Tx) GPIO pins
+		vii. Remote GPIO: Allow access your Raspberry Pi’s GPIO pins from another computer.
+	d. Performance: If you need to do so for a particular project you want to work on, you can change the performance settings of your Pi this tab.
+		i. Overclock: Change the CPU speed and voltage to increase performance.
+		ii.GPU Memory: Change the allocation of memory given to the GPU.
+	This tab allows you to change your Raspberry Pi setting s to be specific to a country or location.
+	Locale: Set the language, country, and character set used by your Raspberry Pi.
+	Timezone: Set the time zone
+	Keyboard: Change your keyboard layout.
+	Wi-Fi Country: Set the Wi-Fi country code.
+13. After starting with Raspberry Pi for the first time, the Welcome to Raspberry Pi 
+application will pop up and it will guide through the initial setup.
+14. Click Next to start the setup.
+15. Set respective Country, Language, and Time zone, then click Next again.
+16. Enter a new password for Raspberry Pi and click next.
+17. Connect to your wi-Fi network by selecting its name entering the password, and clicking next.
+18. Click next let the wizard check for updates to Raspbian and install.
+19. Click done or Reboot to finish the setup
