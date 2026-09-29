@@ -6,6 +6,7 @@
 # CLK      ----->  Pin 16-GPIO-23
 #Step 1: Open the terminal and enter the following command.
 #pip install RPi.GPIO --break-system-packages
+#https://github.com/bhoomikapansare/7Segment.git
 import sys
 import time
 import datetime
